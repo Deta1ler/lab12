@@ -1,1 +1,143 @@
-"" 
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .block {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #333;
+            border-left: 5px solid #4CAF50;
+            padding-left: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        code {
+            background: #eaeaea;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Git Commands</h1>
+
+<!-- 1. Команди роботи з локальним репозиторієм -->
+<div class="block">
+    <h2>Робота з локальним репозиторієм</h2>
+    <table>
+        <tr>
+            <th>Команда</th>
+            <th>Опис</th>
+        </tr>
+        <tr>
+            <td><code>git init</code></td>
+            <td>Створює новий локальний репозиторій</td>
+        </tr>
+        <tr>
+            <td><code>git status</code></td>
+            <td>Перегляд стану файлів</td>
+        </tr>
+        <tr>
+            <td><code>git add .</code></td>
+            <td>Додати всі зміни у staging area</td>
+        </tr>
+        <tr>
+            <td><code>git commit -m "message"</code></td>
+            <td>Створення коміту</td>
+        </tr>
+    </table>
+</div>
+
+<!-- 2. Команди роботи з гілками -->
+<div class="block">
+    <h2>Робота з гілками</h2>
+    <table>
+        <tr>
+            <th>Команда</th>
+            <th>Опис</th>
+        </tr>
+        <tr>
+            <td><code>git branch</code></td>
+            <td>Показати всі гілки</td>
+        </tr>
+        <tr>
+            <td><code>git branch name</code></td>
+            <td>Створити нову гілку</td>
+        </tr>
+        <tr>
+            <td><code>git checkout name</code></td>
+            <td>Перейти на гілку</td>
+        </tr>
+        <tr>
+            <td><code>git merge name</code></td>
+            <td>Об’єднання гілки з поточною</td>
+        </tr>
+    </table>
+</div>
+
+<!-- 3. Команди роботи з віддаленим репозиторієм -->
+<div class="block">
+    <h2>Робота з віддаленим репозиторієм (GitHub)</h2>
+    <table>
+        <tr>
+            <th>Команда</th>
+            <th>Опис</th>
+        </tr>
+        <tr>
+            <td><code>git remote add origin URL</code></td>
+            <td>Прив’язати локальний репозиторій до GitHub</td>
+        </tr>
+        <tr>
+            <td><code>git push -u origin branch</code></td>
+            <td>Відправити гілку на сервер</td>
+        </tr>
+        <tr>
+            <td><code>git pull</code></td>
+            <td>Отримати останні зміни з сервера</td>
+        </tr>
+        <tr>
+            <td><code>git clone URL</code></td>
+            <td>Клонувати репозиторій</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+
