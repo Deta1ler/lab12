@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій особистий блог</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* Хедер */
+        header {
+            background: linear-gradient(to right, #34a0ff, #1e90ff);
+            padding: 15px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid red;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        header .user-name {
+            font-size: 14px;
+            margin-top: 3px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Контент */
+        .container {
+            margin: 60px auto;
+            max-width: 900px;
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .container h2 {
+            margin-top: 0;
+        }
+
+        /* Футер */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 60px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Мій особистий блог</h1>
+        <div class="user-name">Малич Дмитро</div>
+    </div>
+    <nav>
+        <a href="register.html">Реєстрація</a>
+        <a href="git_commands.html">Git команди</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Лабораторна робота №12</h2>
+    <p>
+        Це головна сторінка твоєї лабораторної роботи.  
+        Використовуй навігаційне меню зверху, щоб перейти на:
+    </p>
+
+    <ul>
+        <li><b>Реєстрація</b> — форма користувача</li>
+        <li><b>Git команди</b> — шпаргалка з Git</li>
+    </ul>
+
+    <p>
+        Сайт підготовлений для подальшого деплою на Netlify.
+    </p>
+</div>
+
+<footer>
+    © Всі права захищені.
+</footer>
+
+</body>
+</html>
